@@ -1,0 +1,153 @@
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+header {
+  background: #808080;
+  color: #ffff;
+  text-align: center;
+  padding: 1rem;
+}
+header h1 {
+  margin-top: 0;
+}
+.search {
+  background: #ffff;
+  width: 15rem;
+  margin: 0 auto;
+  padding: 0.3rem 0.1rem;
+  border-radius: 0.25rem;
+}
+.search form button {
+  border: none;
+  background: #ffff;
+}
+.search form input {
+  border: none;
+}
+.search form input:focus {
+  outline: none;
+}
+#welcomeText {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/halftone-yellow.png");
+  min-height: 40vh;
+  width: 100%;
+}
+#welcomeText h2 {
+  text-align: center;
+  margin: 0;
+  padding: 5rem 0;
+  color: rgb(85, 78, 78);
+}
+.photos {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
+.photos img {
+  /* max-width: 10em; */
+  width: 33.3%;
+  min-height: 7rem;
+  border-radius: 70%;
+  padding: 0.5rem 0.2rem;
+}
+.history {
+  text-align: center;
+}
+.history h3 {
+  color: #cece24;
+}
+.content {
+  text-align: center;
+}
+.content img {
+  border-radius: 70%;
+  min-height: 7rem;
+  width: 33.3%;
+}
+.content h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+h4 {
+  color: #cece24;
+}
+address {
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+footer {
+  border-top: 6px solid #cece24;
+  background: #808080;
+  padding-bottom: 1rem;
+}
+.additional h5 {
+  color: #cece24;
+  margin-bottom: 0;
+}
+.additional ul {
+  list-style: none;
+  color: #ffff;
+  padding: 0;
+  margin-bottom: 0.25rem;
+}
+.additional {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  header {
+    background: rgb(173, 165, 165);
+  }
+  .container.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .search {
+    margin: 0;
+  }
+  #welcomeText h2 {
+    padding-top: 4rem;
+  }
+  .container2 {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .container h2 {
+    text-align: center;
+    padding-top: 0;
+  }
+  .photos img {
+    margin-top: -15%;
+    max-width: calc(33.3% - 2rem);
+    min-height: 17rem;
+    margin-right: 2rem;
+    border-radius: 100%;
+  }
+  .contentContainer {
+    width: 50%;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .content {
+    display: flex;
+    padding-left: 7rem;
+  }
+  .content img {
+    min-width: 10rem;
+  }
+  .details {
+    padding-left: 1rem;
+  }
+  footer {
+    background: rgb(173, 165, 165);
+  }
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+}
